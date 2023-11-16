@@ -38,14 +38,6 @@ export const Pimenta = styled.img`
     left: 5%;
 `
 
-export const Peixe = styled.img`
-    width: 6.25rem;
-    height: 6.25rem;
-    position: absolute;
-    top: 10%;
-    left: 35%;
-`
-
 export const Cogumelo = styled.img`
     width: 3.125rem;
     height: 2.72944rem;

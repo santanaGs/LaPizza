@@ -2,12 +2,11 @@
 import React from 'react'
 
 // Styled Components
-import { Acafrao, Carrossel, Cogumelo, Container, Oregano, Peixe, Pimenta, SectionS, Title } from './styles';
+import { Acafrao, Carrossel, Cogumelo, Container, Oregano, Pimenta, SectionS, Title } from './styles';
 
 // Images
 import oregano from '../../assets/Sellers/oregano.png'
 import pimenta from '../../assets/Sellers/pimenta.png'
-import peixe from '../../assets/Sellers/peixe.png'
 import cogumelo from '../../assets/Sellers/cogumelo.png'
 import acafrao from '../../assets/Sellers/acafrao.png'
 import Card from '../../components/Card';
@@ -106,7 +105,6 @@ const Sellers: React.FC = () => {
                 <Title>Mais vendidas</Title>
                 <Oregano src={oregano} />
                 <Pimenta src={pimenta} />
-                <Peixe src={peixe} />
                 <Cogumelo src={cogumelo} />
                 <Acafrao src={acafrao} />
                 <Carrossel>

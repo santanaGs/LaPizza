@@ -73,9 +73,11 @@ export const Link = styled.a`
     font-style: normal;
     font-weight: 600;
     transition: .3s;
+    scale: 1;
 
     &:hover{
-        background: #da8a00
+        background: #da8a00;
+        scale: 1.05;
     }
 `
 
